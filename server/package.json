@@ -1,0 +1,27 @@
+{
+  "name": "finflow-server",
+  "version": "1.0.0",
+  "description": "FinFlow backend API server",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev -p 3001",
+    "build": "next build",
+    "start": "next start -p 3001",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^3.0.3",
+    "cors": "^2.8.6",
+    "jsonwebtoken": "^9.0.3",
+    "mongoose": "^9.6.3",
+    "next": "^16.2.7",
+    "react": "^19.2.7",
+    "react-dom": "^19.2.7"
+  },
+  "directories": {
+    "lib": "lib"
+  }
+}
